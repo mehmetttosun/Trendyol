@@ -45,7 +45,6 @@ public class HomePageTest extends BaseTest {
 		
 		homePage.inputUserandPass(username, realPassword);
 		String message = homePage.getLoginStatus();
-		//Assert.assertEquals(message, "**Failed Login**");
 		Assert.assertEquals(message, "**Failed Login**");
 		
 	}
