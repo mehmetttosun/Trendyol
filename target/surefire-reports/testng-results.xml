@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="5499" started-at="2019-09-12T02:32:50Z" finished-at="2019-09-12T02:32:56Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5499" started-at="2019-09-12T02:32:50Z" finished-at="2019-09-12T02:32:56Z">
+      <class name="mehmet.project.HomePageTest">
+        <test-method status="PASS" signature="initializing()[pri:0, instance:mehmet.project.HomePageTest@6df97b55]" name="initializing" is-config="true" duration-ms="2710" started-at="2019-09-12T02:32:50Z" finished-at="2019-09-12T02:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="invalidUserandPass()[pri:0, instance:mehmet.project.HomePageTest@6df97b55]" name="invalidUserandPass" duration-ms="890" started-at="2019-09-12T02:32:53Z" finished-at="2019-09-12T02:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserandPass -->
+        <test-method status="PASS" signature="validUserandInvalidPass()[pri:1, instance:mehmet.project.HomePageTest@6df97b55]" name="validUserandInvalidPass" duration-ms="394" started-at="2019-09-12T02:32:54Z" finished-at="2019-09-12T02:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserandInvalidPass -->
+        <test-method status="PASS" signature="invalidUserandvalidPass()[pri:2, instance:mehmet.project.HomePageTest@6df97b55]" name="invalidUserandvalidPass" duration-ms="442" started-at="2019-09-12T02:32:54Z" finished-at="2019-09-12T02:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserandvalidPass -->
+        <test-method status="PASS" signature="validUserandPass()[pri:3, instance:mehmet.project.HomePageTest@6df97b55]" name="validUserandPass" duration-ms="424" started-at="2019-09-12T02:32:55Z" finished-at="2019-09-12T02:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserandPass -->
+        <test-method status="PASS" signature="finishing()[pri:0, instance:mehmet.project.HomePageTest@6df97b55]" name="finishing" is-config="true" duration-ms="624" started-at="2019-09-12T02:32:55Z" finished-at="2019-09-12T02:32:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishing -->
+      </class> <!-- mehmet.project.HomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
