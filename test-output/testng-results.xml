@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7415" started-at="2019-09-12T08:57:06Z" finished-at="2019-09-12T08:57:13Z">
+  <suite name="Suite" duration-ms="5704" started-at="2019-09-14T09:16:44Z" finished-at="2019-09-14T09:16:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7415" started-at="2019-09-12T08:57:06Z" finished-at="2019-09-12T08:57:13Z">
+    <test name="HomePageTest" duration-ms="5704" started-at="2019-09-14T09:16:44Z" finished-at="2019-09-14T09:16:50Z">
       <class name="mehmet.project.HomePageTest">
-        <test-method status="PASS" signature="initializing()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="initializing" is-config="true" duration-ms="3114" started-at="2019-09-12T08:57:06Z" finished-at="2019-09-12T08:57:09Z">
+        <test-method status="PASS" signature="initializing()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="initializing" is-config="true" duration-ms="2705" started-at="2019-09-14T09:16:44Z" finished-at="2019-09-14T09:16:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializing -->
-        <test-method status="PASS" signature="invalidUserandPass()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="invalidUserandPass" duration-ms="1220" started-at="2019-09-12T08:57:09Z" finished-at="2019-09-12T08:57:10Z">
+        <test-method status="PASS" signature="invalidUserandPass()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="invalidUserandPass" duration-ms="920" started-at="2019-09-14T09:16:47Z" finished-at="2019-09-14T09:16:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUserandPass -->
-        <test-method status="PASS" signature="invalidUserandvalidPass()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="invalidUserandvalidPass" duration-ms="769" started-at="2019-09-12T08:57:10Z" finished-at="2019-09-12T08:57:11Z">
+        <test-method status="PASS" signature="invalidUserandvalidPass()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="invalidUserandvalidPass" duration-ms="448" started-at="2019-09-14T09:16:48Z" finished-at="2019-09-14T09:16:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUserandvalidPass -->
-        <test-method status="PASS" signature="validUserandInvalidPass()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="validUserandInvalidPass" duration-ms="598" started-at="2019-09-12T08:57:11Z" finished-at="2019-09-12T08:57:12Z">
+        <test-method status="PASS" signature="validUserandInvalidPass()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="validUserandInvalidPass" duration-ms="506" started-at="2019-09-14T09:16:48Z" finished-at="2019-09-14T09:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUserandInvalidPass -->
-        <test-method status="FAIL" signature="validUserandPass()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="validUserandPass" duration-ms="927" started-at="2019-09-12T08:57:12Z" finished-at="2019-09-12T08:57:13Z">
+        <test-method status="FAIL" signature="validUserandPass()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="validUserandPass" duration-ms="445" started-at="2019-09-14T09:16:49Z" finished-at="2019-09-14T09:16:49Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [**Successful Login**] but found [**Failed Login**]]]>
@@ -68,11 +68,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUserandPass -->
-        <test-method status="PASS" signature="finishing()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="finishing" is-config="true" duration-ms="748" started-at="2019-09-12T08:57:13Z" finished-at="2019-09-12T08:57:13Z">
+        <test-method status="PASS" signature="finishing()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="finishing" is-config="true" duration-ms="657" started-at="2019-09-14T09:16:49Z" finished-at="2019-09-14T09:16:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishing -->
       </class> <!-- mehmet.project.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Suite -->
 </testng-results>
