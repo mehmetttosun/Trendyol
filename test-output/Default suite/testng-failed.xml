@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mehmet.project.HomePageTest">
+      <class name="mehmet.project.UserLoginCase">
         <methods>
-          <include name="validUserandPass"/>
           <include name="finishing"/>
+          <include name="UserLoginCase"/>
           <include name="initializing"/>
         </methods>
-      </class> <!-- mehmet.project.HomePageTest -->
+      </class> <!-- mehmet.project.UserLoginCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

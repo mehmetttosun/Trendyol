@@ -1,42 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5704" started-at="2019-09-14T09:16:44Z" finished-at="2019-09-14T09:16:50Z">
+  <suite name="Default suite" duration-ms="41118" started-at="2020-12-10T11:17:11Z" finished-at="2020-12-10T11:17:52Z">
     <groups>
     </groups>
-    <test name="HomePageTest" duration-ms="5704" started-at="2019-09-14T09:16:44Z" finished-at="2019-09-14T09:16:50Z">
-      <class name="mehmet.project.HomePageTest">
-        <test-method status="PASS" signature="initializing()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="initializing" is-config="true" duration-ms="2705" started-at="2019-09-14T09:16:44Z" finished-at="2019-09-14T09:16:47Z">
+    <test name="Default test" duration-ms="41118" started-at="2020-12-10T11:17:11Z" finished-at="2020-12-10T11:17:52Z">
+      <class name="mehmet.project.UserLoginCase">
+        <test-method status="PASS" signature="initializing()[pri:0, instance:mehmet.project.UserLoginCase@c0c2f8d]" name="initializing" is-config="true" duration-ms="6489" started-at="2020-12-10T11:17:11Z" finished-at="2020-12-10T11:17:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializing -->
-        <test-method status="PASS" signature="invalidUserandPass()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="invalidUserandPass" duration-ms="920" started-at="2019-09-14T09:16:47Z" finished-at="2019-09-14T09:16:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidUserandPass -->
-        <test-method status="PASS" signature="invalidUserandvalidPass()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="invalidUserandvalidPass" duration-ms="448" started-at="2019-09-14T09:16:48Z" finished-at="2019-09-14T09:16:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidUserandvalidPass -->
-        <test-method status="PASS" signature="validUserandInvalidPass()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="validUserandInvalidPass" duration-ms="506" started-at="2019-09-14T09:16:48Z" finished-at="2019-09-14T09:16:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validUserandInvalidPass -->
-        <test-method status="FAIL" signature="validUserandPass()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="validUserandPass" duration-ms="445" started-at="2019-09-14T09:16:49Z" finished-at="2019-09-14T09:16:49Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="UserLoginCase()[pri:0, instance:mehmet.project.UserLoginCase@c0c2f8d]" name="UserLoginCase" duration-ms="33986" started-at="2020-12-10T11:17:17Z" finished-at="2020-12-10T11:17:51Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[expected [**Successful Login**] but found [**Failed Login**]]]>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'MEHMET_TOSUN', ip: '192.168.2.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir=C:\Users\MEHMET~1.TOS\AppData\Local\Temp\scoped_dir15016_1440223069}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:49738}, acceptInsecureCerts=false, browserVersion=87.0.4280.88, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 5d22c0f18664877ed1b4192ff7da0b08
+*** Element info: {Using=xpath, value=//div[contains(@class,'sf-SalesFrontCash-3zIbr hb_sfc_close')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [**Successful Login**] but found [**Failed Login**]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at mehmet.project.HomePageTest.validUserandPass(HomePageTest.java:61)
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'MEHMET_TOSUN', ip: '192.168.2.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir=C:\Users\MEHMET~1.TOS\AppData\Local\Temp\scoped_dir15016_1440223069}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:49738}, acceptInsecureCerts=false, browserVersion=87.0.4280.88, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 5d22c0f18664877ed1b4192ff7da0b08
+*** Element info: {Using=xpath, value=//div[contains(@class,'sf-SalesFrontCash-3zIbr hb_sfc_close')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:443)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:522)
+at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:404)
+at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+at mehmet.project.BasePage.waitUntilVisibleByLocator(BasePage.java:40)
+at mehmet.project.HomePage.addToCartFirstProduct(HomePage.java:70)
+at mehmet.project.UserLoginCase.UserLoginCase(UserLoginCase.java:31)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -64,15 +81,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validUserandPass -->
-        <test-method status="PASS" signature="finishing()[pri:0, instance:mehmet.project.HomePageTest@1e7c7811]" name="finishing" is-config="true" duration-ms="657" started-at="2019-09-14T09:16:49Z" finished-at="2019-09-14T09:16:50Z">
+        </test-method> <!-- UserLoginCase -->
+        <test-method status="PASS" signature="finishing()[pri:0, instance:mehmet.project.UserLoginCase@c0c2f8d]" name="finishing" is-config="true" duration-ms="612" started-at="2020-12-10T11:17:51Z" finished-at="2020-12-10T11:17:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishing -->
-      </class> <!-- mehmet.project.HomePageTest -->
-    </test> <!-- HomePageTest -->
-  </suite> <!-- Suite -->
+      </class> <!-- mehmet.project.UserLoginCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
