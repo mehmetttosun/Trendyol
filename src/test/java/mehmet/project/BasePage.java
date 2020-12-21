@@ -6,7 +6,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Sleeper;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import utilities.Log4j;
 
 
 public class BasePage {
@@ -42,6 +45,27 @@ public class BasePage {
 	
 	public void clearWebElement(By locator, int timeout) {
 		driverWait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+	}
+	
+	protected synchronized boolean checkElementIsExistsByLocator(By locator) {
+		Boolean isPresent = driver.findElements(locator).size() > 0;
+		return isPresent;
+	}
+	
+	public void sleep(int second) {
+
+		try {
+
+			Log4j.info("SLEEP...");
+			long duration = new Long(second).longValue();
+			Sleeper.SYSTEM_SLEEPER.sleep(
+					new org.openqa.selenium.support.ui.Duration(duration, java.util.concurrent.TimeUnit.SECONDS));
+			Log4j.info("Time to wake up!");
+
+		} catch (Exception e) {
+			throw new Error("Sleep Error!", e);
+		}
+		
 	}
 
 }

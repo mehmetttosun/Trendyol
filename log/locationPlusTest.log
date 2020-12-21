@@ -1,0 +1,82 @@
+2020-12-21 13:34:33 INFO  Log4j:19 - The user information has been verified
+2020-12-21 13:34:34 INFO  Log4j:19 - SLEEP...
+2020-12-21 13:34:39 INFO  Log4j:19 - Time to wake up!
+2020-12-21 13:36:07 INFO  Log4j:19 - SLEEP...
+2020-12-21 13:36:12 INFO  Log4j:19 - Time to wake up!
+2020-12-21 13:36:17 INFO  Log4j:19 - The user information has been verified
+2020-12-21 13:36:18 INFO  Log4j:19 - SLEEP...
+2020-12-21 13:36:23 INFO  Log4j:19 - Time to wake up!
+2020-12-21 13:36:23 INFO  Log4j:19 - The Requested Header Tab has been verified
+2020-12-21 13:36:23 INFO  Log4j:19 - All components have an image
+2020-12-21 13:36:23 INFO  Log4j:19 - All components have an image
+2020-12-21 13:36:53 INFO  Log4j:19 - All components have an image
+2020-12-21 13:36:54 ERROR Log4j:27 - This Header Name was not found
+2020-12-21 13:36:55 INFO  Log4j:19 - SLEEP...
+2020-12-21 13:37:00 INFO  Log4j:19 - Time to wake up!
+2020-12-21 13:37:00 INFO  Log4j:19 - The Requested Header Tab has been verified
+2020-12-21 13:37:00 INFO  Log4j:19 - All components have an image
+2020-12-21 13:37:00 INFO  Log4j:19 - All components have an image
+2020-12-21 13:37:30 INFO  Log4j:19 - All components have an image
+2020-12-21 13:37:30 ERROR Log4j:27 - This Header Name was not found
+2020-12-21 13:37:30 ERROR Log4j:27 - This Header Name was not found
+2020-12-21 13:37:32 INFO  Log4j:19 - SLEEP...
+2020-12-21 13:37:37 INFO  Log4j:19 - Time to wake up!
+2020-12-21 13:37:37 INFO  Log4j:19 - The Requested Header Tab has been verified
+2020-12-21 13:37:37 INFO  Log4j:19 - All components have an image
+2020-12-21 13:37:37 INFO  Log4j:19 - All components have an image
+2020-12-21 14:01:29 INFO  Log4j:19 - SLEEP...
+2020-12-21 14:01:34 INFO  Log4j:19 - Time to wake up!
+2020-12-21 14:01:35 INFO  Log4j:19 - Gender selection pop up was closed
+2020-12-21 14:01:39 INFO  Log4j:19 - The user information has been verified
+2020-12-21 14:02:58 INFO  Log4j:19 - SLEEP...
+2020-12-21 14:03:03 INFO  Log4j:19 - Time to wake up!
+2020-12-21 14:03:03 INFO  Log4j:19 - Gender selection pop up was closed
+2020-12-21 14:03:08 INFO  Log4j:19 - The user information has been verified
+2020-12-21 14:03:09 INFO  Log4j:19 - The KADIN button has been clicked
+2020-12-21 14:03:09 INFO  Log4j:19 - SLEEP...
+2020-12-21 14:03:14 INFO  Log4j:19 - Time to wake up!
+2020-12-21 14:03:14 INFO  Log4j:19 - Verified that the KADIN button is the active Header
+2020-12-21 14:03:15 INFO  Log4j:19 - All image are avaliable in this By.xpath: //div[@class='component-list component-big-list']/article/a/span 
+2020-12-21 14:03:15 INFO  Log4j:19 - All image are avaliable in this By.xpath: //div[@class='banner-item loaded']/a 
+2020-12-21 14:03:45 INFO  Log4j:19 - All image are avaliable in this By.xpath: //div[@class='component-list component-small-list']/article/a/span 
+2020-12-21 14:08:38 INFO  Log4j:19 - SLEEP...
+2020-12-21 14:08:43 INFO  Log4j:19 - Time to wake up!
+2020-12-21 14:08:44 INFO  Log4j:19 - Gender selection pop up was closed
+2020-12-21 14:08:48 INFO  Log4j:19 - The user information has been verified
+2020-12-21 14:08:49 INFO  Log4j:19 - The KADIN button has been clicked
+2020-12-21 14:08:49 INFO  Log4j:19 - SLEEP...
+2020-12-21 14:08:54 INFO  Log4j:19 - Time to wake up!
+2020-12-21 14:08:54 INFO  Log4j:19 - Verified that the KADIN button is the active Header
+2020-12-21 14:08:54 INFO  Log4j:19 - All image are avaliable in this Component 
+2020-12-21 14:08:55 INFO  Log4j:19 - All image are avaliable in this Component 
+2020-12-21 14:09:25 INFO  Log4j:19 - All image are avaliable in this Component 
+2020-12-21 14:09:26 INFO  Log4j:19 - The ERKEK button has been clicked
+2020-12-21 14:09:26 INFO  Log4j:19 - SLEEP...
+2020-12-21 14:09:31 INFO  Log4j:19 - Time to wake up!
+2020-12-21 14:09:31 INFO  Log4j:19 - Verified that the ERKEK button is the active Header
+2020-12-21 14:09:32 INFO  Log4j:19 - All image are avaliable in this Component 
+2020-12-21 14:09:32 INFO  Log4j:19 - All image are avaliable in this Component 
+2020-12-21 14:10:02 INFO  Log4j:19 - All image are avaliable in this Component 
+2020-12-21 14:10:03 INFO  Log4j:19 - The KADIN button has been clicked
+2020-12-21 14:10:03 INFO  Log4j:19 - SLEEP...
+2020-12-21 14:10:08 INFO  Log4j:19 - Time to wake up!
+2020-12-21 14:10:08 ERROR Log4j:27 - The Requested Header is the different from Active Header !! Please check Header Tab
+2020-12-21 14:13:51 INFO  Log4j:19 - SLEEP...
+2020-12-21 14:13:56 INFO  Log4j:19 - Time to wake up!
+2020-12-21 14:13:56 INFO  Log4j:19 - Gender selection pop up was closed
+2020-12-21 14:14:01 INFO  Log4j:19 - The user information has been verified
+2020-12-21 14:14:02 INFO  Log4j:19 - The KADIN button has been clicked
+2020-12-21 14:14:02 INFO  Log4j:19 - SLEEP...
+2020-12-21 14:14:12 INFO  Log4j:19 - Time to wake up!
+2020-12-21 14:14:12 INFO  Log4j:19 - Verified that the KADIN button is the active Header
+2020-12-21 14:14:13 INFO  Log4j:19 - All Image are avaliable in this Component 
+2020-12-21 14:14:13 INFO  Log4j:19 - All Image are avaliable in this Component 
+2020-12-21 14:14:43 INFO  Log4j:19 - All Image are avaliable in this Component 
+2020-12-21 14:14:44 INFO  Log4j:19 - The ERKEK button has been clicked
+2020-12-21 14:14:44 INFO  Log4j:19 - SLEEP...
+2020-12-21 14:14:49 INFO  Log4j:19 - Time to wake up!
+2020-12-21 14:14:49 INFO  Log4j:19 - Verified that the ERKEK button is the active Header
+2020-12-21 14:14:51 INFO  Log4j:19 - The First Boutique has been clicked in the ERKEK button 
+2020-12-21 14:14:51 INFO  Log4j:19 - SLEEP...
+2020-12-21 14:14:56 INFO  Log4j:19 - Time to wake up!
+2020-12-21 14:14:56 INFO  Log4j:19 - All Image are avaliable in this Component 
