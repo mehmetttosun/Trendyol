@@ -16,7 +16,7 @@ public class ImageContolAndAddProductTest extends BaseTest {
 
 
 			String username = "mehmett4665@gmail.com";
-			String password = "021146";
+			String password = "xxxxxxx";
 			String browserName = "Chrome"; //Select the browser; For ChromeBrowser input "Chrome" , For FirefoxBrowser input "Firefox" , For InternerExplorer input "IE"
 			
 			browserlaunch(browserName);
